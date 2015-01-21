@@ -1,4 +1,4 @@
 module.exports = {
-    Url: require('./lib/controller/url'),
+    Location: require('./lib/controller/location'),
     Hash: require('./lib/controller/hash')
 };
