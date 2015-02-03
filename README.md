@@ -33,10 +33,19 @@ state.start();
 # getData() 获取当前的[data](#data) 
 
 # setData(data) 设置当前的[data](#data) 
+``` js
+    state.setData({
+        path: '/a/b',
+        query: {
+            a: 1
+        }
+    })
+```
+
 
 # data
-data.path String 当前的路径
-data.query Object 当前的参数
+- data.path String 当前的路径
+- data.query Object 当前的参数
 
 /a/b?c=1&d=2 转化成的data对象是
 
